@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.env
+
+# Data and models
+data/train
+inference/checkpoints/
+inference/predictions/
+inference/submissions/
+*.ckpt
+*.pt
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Logs
+wandb/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
